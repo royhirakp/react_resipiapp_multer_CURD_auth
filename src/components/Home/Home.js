@@ -42,7 +42,7 @@ const Home = () => {
           },
         };
         const res = await axios.get(
-          "https://prt-25feb-nodejs.onrender.com/reci",
+          "https://api-recipe-dpfc.onrender.com/api/v1/reci",
           config
         );
         setData(res.data.recipi);

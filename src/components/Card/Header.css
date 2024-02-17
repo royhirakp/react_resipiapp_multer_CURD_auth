@@ -1,0 +1,41 @@
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin:20px 65px 0 65px;
+}
+body{
+    background-color: aliceblue;
+}
+.headerContainer div{
+    /* border: 1px solid; */
+    border-radius: 5px;
+    background-color: antiquewhite;
+}
+.searchbutton{
+    border-radius: 11px;
+    width: 65px;
+    height: 33px;
+    margin-left: 3px;
+    border: none;
+    background-color: aquamarine;
+}
+.searchbutton:hover{
+    background-color: chartreuse;
+}
+.logobutton{
+    cursor: pointer;
+    border: none;
+}
+.logobutton:hover{
+    cursor: pointer;
+    background-color: aqua;
+}
+.headerContainer button{
+    border-radius: 8px;
+    width:80px;
+    height: 40px;
+    border: none;
+    background-color: rgb(56, 114, 168);
+}

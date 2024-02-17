@@ -1,0 +1,15 @@
+.searchContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.addRecipiContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.allrecipies{
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -35,8 +35,7 @@ const Login = (props) => {
   //Onsubmit function
   async function onsunmitFun(e) {
     e.preventDefault();
-    // console.log('onsubmit')
-    // console.log(checkboxStatus)
+
     setLoder(true);
     try {
       const body = {
@@ -94,6 +93,16 @@ const Login = (props) => {
             onChange={(e) => setInputaPassword(e.target.value)}
           />
           <br />
+          <small
+            style={{
+              color: "red",
+            }}
+          >
+            NB* for test : email : "12@12.com"
+            <br />
+            password: "12@12.com"
+          </small>
+          <br /> <br />
           <div className="chekboxRemberme">
             <input
               type="checkbox"

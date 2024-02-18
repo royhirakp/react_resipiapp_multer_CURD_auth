@@ -66,10 +66,13 @@ const Home = () => {
             onChange={(e) => setSearchData(e.target.value)}
             placeholder="search here..."
           />
+
           <button onClick={search} className="searchbutton">
             search
           </button>
         </div>
+        <br />
+        <p>*nb: search by "Title"</p>
       </div>
       <br />
       <div className="addRecipiContainer">
